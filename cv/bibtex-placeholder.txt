@@ -1,0 +1,7 @@
+@article{you2025conditional,
+  title = {Conditional deep generative normative modeling for fetal brain anomaly detection},
+  author = {You, S. and Gondova, A. and Amador Izaguirre, C. S. and others},
+  journal = {NeuroImage},
+  year = {2025},
+  doi = {10.1016/j.neuroimage.2025.121089}
+}

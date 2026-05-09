@@ -1,0 +1,23 @@
+{
+  "name": "Carlos Simón Amador Izaguirre",
+  "short_name": "Simón Amador",
+  "description": "AI Engineer and biomedical AI researcher in Lima, Peru.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FAF6F1",
+  "theme_color": "#C2532A",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
