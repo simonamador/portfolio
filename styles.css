@@ -1,20 +1,20 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
-  --bg: #FAF6F1;
-  --bg-warm: #F3EDE5;
-  --bg-card: #FFFFFF;
-  --bg-dark: #2C2520;
-  --bg-dark-soft: #3A332D;
-  --text-dark: #2C2520;
-  --text-body: #5C534A;
-  --text-muted: #8A7F77;
-  --accent: #C2532A;
-  --accent-light: rgba(194, 83, 42, 0.1);
-  --accent-warm: #D4956A;
-  --sand: #DDD5CA;
-  --terracotta: #C2532A;
-  --terracotta-dark: #9E3E1C;
-  --cream: #FAF6F1;
+  --bg: #F5F0E8;
+  --bg-warm: #EDE5D6;
+  --bg-card: #FDFAF5;
+  --bg-dark: #2A1F14;
+  --bg-dark-soft: #3C2D1E;
+  --text-dark: #2A1F14;
+  --text-body: #5C4D3A;
+  --text-muted: #8C7A63;
+  --accent: #4A7055;
+  --accent-light: rgba(74, 112, 85, 0.1);
+  --accent-warm: #C4A882;
+  --sand: #D8CCBA;
+  --terracotta: #4A7055;
+  --terracotta-dark: #344F3C;
+  --cream: #F5F0E8;
   --serif: "Playfair Display", Georgia, serif;
   --mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   --sans: "Outfit", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -53,7 +53,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
-  background: rgba(250, 246, 241, 0.92);
+  background: rgba(245, 240, 232, 0.92);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--sand);
 }
@@ -172,7 +172,7 @@ nav {
   background: var(--bg-card);
   padding: 1.4rem 1.6rem;
   border-radius: 4px;
-  box-shadow: 0 12px 40px rgba(44, 37, 32, 0.12);
+  box-shadow: 0 12px 40px rgba(42, 31, 20, 0.12);
   max-width: 280px;
 }
 .float-badge { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; }
@@ -226,7 +226,7 @@ main section { padding: 6.5rem 3rem; }
 .exp-org a { color: var(--accent-warm); border-bottom: 1px solid transparent; }
 .exp-org a:hover { color: var(--cream); border-bottom-color: var(--cream); }
 .exp-bullets { margin-top: 1rem; list-style: none; }
-.exp-bullets li { font-size: 0.9rem; color: rgba(250, 246, 241, 0.74); line-height: 1.7; margin-bottom: 0.6rem; padding-left: 1.2rem; position: relative; }
+.exp-bullets li { font-size: 0.9rem; color: rgba(245, 240, 232, 0.74); line-height: 1.7; margin-bottom: 0.6rem; padding-left: 1.2rem; position: relative; }
 .exp-bullets li::before { content: ">"; font-family: var(--mono); position: absolute; left: 0; color: var(--terracotta); font-size: 0.8rem; }
 .exp-photos { display: grid; grid-template-columns: minmax(280px, 520px); gap: 1rem; margin-top: 1.8rem; }
 .exp-photo { width: 100%; aspect-ratio: 16 / 10; border-radius: 4px; overflow: hidden; border: 1px solid var(--bg-dark-soft); }
@@ -276,7 +276,7 @@ main section { padding: 6.5rem 3rem; }
 .lead-card { padding: 2rem; border: 1px solid var(--bg-dark-soft); border-radius: 5px; }
 .lead-card-title { font-size: 1rem; font-weight: 500; color: var(--cream); }
 .lead-card-org { font-size: 0.85rem; color: var(--accent-warm); margin-top: 0.2rem; }
-.lead-card-desc { font-size: 0.85rem; color: rgba(250, 246, 241, 0.68); margin-top: 0.8rem; line-height: 1.6; }
+.lead-card-desc { font-size: 0.85rem; color: rgba(245, 240, 232, 0.68); margin-top: 0.8rem; line-height: 1.6; }
 .contact-section { text-align: center; padding: 8rem 3rem; }
 .contact-headline { font-family: var(--serif); font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 400; color: var(--text-dark); line-height: 1.15; }
 .contact-headline .italic { font-style: italic; color: var(--terracotta); }
@@ -302,7 +302,7 @@ footer span, footer a { font-family: var(--mono); font-size: 0.6rem; color: var(
   nav { padding: 1rem 1.5rem; }
   .nav-links { display: none; }
   .hamburger { display: flex; }
-  .nav-links.show { display: flex !important; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: rgba(250, 246, 241, 0.98); padding: 1.5rem; border-bottom: 1px solid var(--sand); gap: 1rem; align-items: flex-start; }
+  .nav-links.show { display: flex !important; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: rgba(245, 240, 232, 0.98); padding: 1.5rem; border-bottom: 1px solid var(--sand); gap: 1rem; align-items: flex-start; }
   .hero { grid-template-columns: 1fr; padding: 7rem 1.5rem 3rem; min-height: auto; }
   .hero-visual { height: 52vh; order: -1; max-height: 430px; }
   .hero-float-card { bottom: -12px; left: 10px; }
